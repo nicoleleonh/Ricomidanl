@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ricomida </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1-0">
+  
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!--CSS de Bootstrap 4.5-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!--Mi estilo-->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <span class="icon text-white">Ricomida</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item-active ">
+              <a class="nav-link active text-white " href="#begin">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#recipe">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Us">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Contact">Contacto</a>
+            </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+
+
+  <section class="container pt-5">
+    <div class="row pt-2">
+      <div class="col-sm-12 col-md-12">
+        <div class="separator"><hr class="d-block d-sm-none"></div>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <img class="figure-img img-fluid" src="assets/img/principal.jpg" alt="Pizza Tradicional">
+      </div>
+      <div class="col-sm-12 col-md-6 text-center text-md-left">
+        <div class="col-xs-12 col-md-8">
+          <h1>PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
+        </div>
+        <div class="separator"><hr></div>
+        <h4>110 MIN / 6 A 8 PORCIONES</h4>
+        <button type="button" id="enviarCorreo" class="btn btn-light" data-container="body" data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar a tu correo">Enviar por correo</button>
+        <button type="button" class="btn btn-light my-3" data-container="body" data-toggle="tooltip" data-placement="right" title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="container d-none d-md-block">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-dark"></li>
+      </ol>
+      <div class="carousel-inner pt-5">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-3">
+              <img src="Assets/img/slider-1.png" class="d-block w-100" alt="Hongos">
+            </div>
+            <div class=" col-3 ">
+              <img src="Assets/img/slider-2.png" class="d-block w-100" alt="Pizza">
+            </div>
+            <div class="col-3">
+              <img src="Assets/img/slider-3.png" class="d-block w-100" alt="Pan amasado">
+            </div>
+            <div class="col-3">
+              <img src="Assets/img/slider-4.png" class="d-block w-100" alt="Haciendo pizza">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-3">
+              <img src="Assets/img/slider-5.png" class="d-block w-100" alt="Pizza de Peperoni">
+            </div>
+            <div class=" col-3 ">
+              <img src="Assets/img/slider-6.png" class="d-block w-100" alt="Pizza Pesto">
+            </div>
+            <div class="col-3">
+              <img src="Assets/img/slider-7.png" class="d-block w-100" alt="Pizza con aceitunas">
+            </div>
+            <div class="col-3">
+              <img src="Assets/img/slider-8.png" class="d-block w-100" alt="Pizza real">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="container mt-5 ">
+    <div class="separator"><hr class="d-none d-md-block"></div>
+    <div class="row pt-3 pb-5">
+      <div class="col-md-6 ">
+        <h4><u class="underline">INGREDIENTES</u></h4>
+        <br>
+        <p>Masa</p>
+        <br>
+        20 gr de levadura seca instántanea<br>
+        1 cucharadita de azúcar<br>
+        500 ml agua tibia<br>
+        100 ml aceite vegetal<br>
+        4 cucharadas de aceite de oliva<br>
+        65 gr harina de maíz fina (chuchoca)<br>
+        2 cucharaditas de sal<br>
+        625 gr harina<br>
+        Salsa
+        <br>
+        5 cucharadas de aceite de oliva<br>
+        ½ cebolla picada en cubos finos<br>
+        2 cucharaditas de sal<br>
+        3 cucharadas de Orégano Gourmet<br>
+        1 ½ cucharadas de Albahaca Gourmet<br>
+        2 tarro de tomates en cubos al natural<br>
+        2 cucharaditas de azucar<br>
+        Relleno<br>
+        <br>
+        ½ cebolla en cubos
+      </div>
+      <div class="col-md-6 ">
+        <h4><u class="underline">PREPARACIÓN</u></h4>
+        <br>
+        <br>
+        1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, corrupti sed officia doloribus magnam
+        cupiditate modi corporis. Ipsam inventore officia nobis corporis, nemo, quibusdam rerum debitis vero totam
+        corrupti eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum optio pariatur, molestiae
+        perferendis sunt ratione natus dolores, unde provident laborum aspernatur quia commodi necessitatibus.
+        Temporibus facere dolorum provident vitae inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Minima quis blanditiis facere culpa illo, debitis doloribus perspiciatis rerum dolore quidem ullam! Voluptatibus
+        ea, repellat earum exercitationem autem voluptate asperiores expedita.<br>
+        <br>
+        2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque veniam quia voluptatibus! Animi
+        similique aliquam qui doloribus exercitationem inventore. Delectus rerum quis numquam fugiat ut maiores
+        molestiae ullam laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repudiandae quo sit
+        quae maiores sint, soluta enim exercitationem necessitatibus ab quia beatae a neque omnis facilis iusto earum
+        sapiente tenetur. <br>
+        <br>
+        3. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, minima necessitatibus pariatur quidem
+        eligendi vitae recusandae, beatae enim dicta facere fugiat ea. Id pariatur sed maiores deserunt doloribus porro
+        error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsa dicta magnam, alias sapiente odio sunt,
+        dolorem atque optio earum rerum in reiciendis suscipit minima? Rerum, maiores? Ea, assumenda dolor!<br>
+        <br>
+        4. Calentar el horno a 220C.<br>
+        <br>
+        5. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora expedita aliquid sed quisquam
+        natus. Nobis quis repudiandae voluptate earum natus, cupiditate doloribus unde numquam ullam veniam distinctio
+        reprehenderit. Autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis ut
+        aspernatur ipsa, debitis eos quasi quas quo itaque perspiciatis fugit libero impedit beatae inventore corrupti,
+        vero voluptatibus vitae iusto?<br>
+        <br>
+        6. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sapiente quas repellat, distinctio itaque
+        quod laboriosam et mollitia aperiam dolorem deleniti assumenda officia. Reiciendis, nemo asperiores delectus
+        accusamus nulla voluptates.
+      </div>
+    </div>
+  </section>
+
+
+  <section class="container pb-5 mb-4">
+    <div class="separator"><hr></div>
+    <h1 class="text-center">RECETAS RELACIONADAS</h1>
+    <div class="row  p-5 ">
+      <div class="col-md-4 pt-3">
+        <div class="card">
+          <img src="Assets/img/recipe-card-1.png" class="card-img-top" alt="Panqueques rellenos">
+          <div class="card-body">
+            <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 pt-3">
+        <div class="card">
+          <img src="Assets/img/recipe-card-2.png" class="card-img-top" alt="Torta tiramisú">
+          <div class="card-body">
+            <h5 class="card-title">TIRAMISÚ</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 pt-3">
+        <div class="card">
+          <img src="Assets/img/recipe-card-3.png" class="card-img-top" alt="Plateada">
+          <div class="card-body">
+            <h5 class="card-title">PLATEADA</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="container-fluid  newsletter bg-danger text-white text-center p-5">
+    <div class="pt-5">
+      <h1>SUSCRÍBETE EN NUESTRO NEWSLETTER</h1>
+      <h4>y obtén las mejores recetas que tenemos en <span class="icon">Ricomida</span></h4>
+    </div>
+    <div class="p-5">
+      <button type="button" class="btn btn-outline-light px-5">Empezar</button>
+    </div>
+  </section>
+
+
+  <footer class="bg-dark text-center py-3">
+    <span class="icon text-white">Ricomida</span>
+  </footer>
+
+  <!--JQuery 3.5.1 -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <!--Pooper JS 1.16.1-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <!--Bootstrap JS 4.5.3-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+    <!--Mi script-->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
